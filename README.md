@@ -18,11 +18,11 @@ This project aims into finding the shortest route possible between two airports.
 -  Just open the file [`.xcworkspace`] on Xcode and launch on Simulator.
 
 ### <a name="screenshots">Screenshots</a>
-
-![image](https://user-images.githubusercontent.com/18160031/57607407-91ec2b80-759d-11e9-9d11-dfc03e91247f.png)
-![image](https://user-images.githubusercontent.com/18160031/57607414-944e8580-759d-11e9-92c3-d4d519cc7d85.png)
 ![image](https://user-images.githubusercontent.com/18160031/57607418-957fb280-759d-11e9-84d8-5cf2e82a391e.png)
-![image](https://user-images.githubusercontent.com/18160031/57607422-97e20c80-759d-11e9-8f60-260cc6ad39a0.png)
 ![image](https://user-images.githubusercontent.com/18160031/57607428-99abd000-759d-11e9-99b1-c8839935f095.png)
 ![image](https://user-images.githubusercontent.com/18160031/57607440-a2040b00-759d-11e9-9f07-8337a5a9917c.png)
+![image](https://user-images.githubusercontent.com/18160031/57607407-91ec2b80-759d-11e9-9d11-dfc03e91247f.png)
+![image](https://user-images.githubusercontent.com/18160031/57607414-944e8580-759d-11e9-92c3-d4d519cc7d85.png)
+![image](https://user-images.githubusercontent.com/18160031/57607422-97e20c80-759d-11e9-8f60-260cc6ad39a0.png)
+
 
