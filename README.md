@@ -5,8 +5,8 @@
 * [Screenshots](#screenshots)
 
 ### <a name="install">Overview</a>
-* Used Breadth-First Search to find the shortest path possible between two terminals. BFS accommodates unweighted edges. Can use Dijsktra also.
-* Used MVVC for architecture. Although still must improve.
+* Used Breadth-First Search to find the shortest path possible between two terminals. BFS accommodates unweighted edges. Can use Dijsktra also but this algorithm is more effective if the edges are weighted. 
+* Used MVVC for architecture. Although still must improve. We can use Viper since it is more understandable as it has better separation of Routers/View and Controllers.
 * Used Codable for Models. It is much easier to handle especially when coding and decoding. Must still implement in Core Data since we are dealing with thousands of entry. It might be good to combine Core Data and Codable. More on this soon.
 * Implement a better Dependency Injection. Right now, we just settled on making the stores global but this is wrong and not ideal at all. 
 * Must add MAP ANNOTATIONS for all airport that are returned.
