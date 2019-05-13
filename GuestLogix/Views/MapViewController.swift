@@ -156,6 +156,7 @@ extension MapViewController {
     private func loadEmpty() {
         
         guard let sourceNow = source, let destinationNow = destination else {
+            
             return
         }
         
