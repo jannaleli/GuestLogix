@@ -16,18 +16,29 @@ struct    Airports: Codable{
     
    
         var name: String
+    
         var city: String?
+    
         var country: String?
+    
         var iata_three: String?
+    
         var latitute: Double?
+    
         var longitude: Double?
     
     enum CodingKeys: String, CodingKey {
+        
         case name = "Name"
+        
         case city = "City"
+        
         case country = "Country"
+        
         case iata_three = "IATA 3"
+        
         case latitute = "Latitute "
+        
         case longitude = "Longitude"
     }
     

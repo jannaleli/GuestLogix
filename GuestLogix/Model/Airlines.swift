@@ -13,14 +13,21 @@ struct Airlines:  Codable {
     
     
     var name: String
-  var twoDigitCodes: String
-   var threeDigitCodes: String
-   var country: String
+    
+    var twoDigitCodes: String
+    
+    var threeDigitCodes: String
+    
+    var country: String
     
     enum CodingKeys: String, CodingKey {
+        
         case name = "Name"
+        
         case twoDigitCodes = "2 Digit Code"
+        
         case threeDigitCodes = "3 Digit Code"
+        
         case country = "Country"
 
     }
@@ -31,6 +38,7 @@ struct Airlines:  Codable {
 
 }
 public extension CodingUserInfoKey {
-    // Helper property to retrieve the Core Data managed object context
+
     static let managedObjectContext = CodingUserInfoKey(rawValue: "managedObjectContext")
+    
 }

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 protocol InitialProtocol {
 
      func determineEligibleAirports(sourceText: String, destinationText :String) -> (Bool, [Airports], [Airports])

@@ -25,60 +25,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GuestLogix/Views/MapViewController.swift"
-            timestampString = "579429436.595811"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "loadinMap(finalDestination:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "GuestLogix.MapViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "GuestLogix"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jannalelizaplan/Documents/GitHub/GuestLogix/GuestLogix/Views/MapViewController.swift"
-                  timestampString = "579281704.530793"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "320">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (GuestLogix.Routes) -&gt; Swift.Bool in GuestLogix.MapViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "GuestLogix"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jannalelizaplan/Documents/GitHub/GuestLogix/GuestLogix/Views/MapViewController.swift"
-                  timestampString = "579281704.53455"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "41"
-                  endingLineNumber = "41"
-                  offsetFromSymbolStart = "39">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "GuestLogix/Views/InitialViewController.swift"
-            timestampString = "579429436.59593"
+            timestampString = "579450698.592863"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -329,22 +281,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GuestLogix/Views/MapViewController.swift"
-            timestampString = "579429436.596537"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "loadinMap(finalDestination:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "GuestLogix/ViewController.swift"
             timestampString = "579366816.954632"
             startingColumnNumber = "9223372036854775807"
@@ -358,47 +294,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GuestLogix/Views/MapViewController.swift"
-            timestampString = "579429436.596646"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "loadMap()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GuestLogix/Views/MapViewController.swift"
-            timestampString = "579429436.596704"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "loadMap()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuestLogixTests/GuestLogixTests.swift"
-            timestampString = "579422166.232338"
+            timestampString = "579450698.593648"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "testMapStore()"
             landmarkType = "7">
          </BreakpointContent>
@@ -441,28 +345,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "GuestLogixTests/GuestLogixTests.swift"
-            timestampString = "579422166.2328"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "testMapStore()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "GuestLogix/Views/InitialViewController.swift"
-            timestampString = "579429436.596891"
+            timestampString = "579450698.593799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -474,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuestLogix/Views/InitialViewController.swift"
-            timestampString = "579429436.596945"
+            timestampString = "579450698.593914"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -490,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuestLogix/Views/InitialViewController.swift"
-            timestampString = "579429436.596995"
+            timestampString = "579450698.594031"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -506,11 +394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuestLogixTests/GuestLogixTests.swift"
-            timestampString = "579422166.233358"
+            timestampString = "579450698.594112"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "testEligibleAirports()"
             landmarkType = "7">
          </BreakpointContent>
@@ -522,11 +410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuestLogixTests/GuestLogixTests.swift"
-            timestampString = "579422166.233484"
+            timestampString = "579450698.594166"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
             landmarkName = "GuestLogixTests"
             landmarkType = "3">
          </BreakpointContent>
@@ -538,11 +426,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuestLogix/Views/MapViewController.swift"
-            timestampString = "579429436.59711"
+            timestampString = "579450698.594237"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -554,11 +442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuestLogix/Views/MapViewController.swift"
-            timestampString = "579429436.5971659"
+            timestampString = "579450698.594709"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -570,11 +458,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GuestLogix/Views/MapViewController.swift"
-            timestampString = "579429436.597242"
+            timestampString = "579450698.595058"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
