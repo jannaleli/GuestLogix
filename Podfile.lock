@@ -1,0 +1,52 @@
+PODS:
+  - CSV.swift (2.3.1)
+  - DynamicButton (6.1.0)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - PMSuperButton (2.2.0)
+  - SearchTextField (1.2.2)
+  - SkyFloatingLabelTextField (3.6.0)
+  - SwiftGraph (2.0.0)
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+  - TransitionButton (0.5.2)
+
+DEPENDENCIES:
+  - CSV.swift (~> 2.3.1)
+  - DynamicButton (~> 6.1.0)
+  - NVActivityIndicatorView
+  - PMSuperButton
+  - SearchTextField
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SwiftGraph (~> 2.0.0)
+  - SwiftMessages
+  - TransitionButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CSV.swift
+    - DynamicButton
+    - NVActivityIndicatorView
+    - PMSuperButton
+    - SearchTextField
+    - SkyFloatingLabelTextField
+    - SwiftGraph
+    - SwiftMessages
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  CSV.swift: d16f671b3090a2c0525d5f2165b18319074aae2b
+  DynamicButton: 5a3ae2bf26dc196fb6c85b3e1aac956add860718
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  PMSuperButton: 5e7b2eb79468dba1ced3fd00e47a7ce88a1fa664
+  SearchTextField: a0992739d4b05dcbb40fb3a5cc6526bd991bdd23
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+  SwiftGraph: 70f78b282ffd7091add44542e44309ed33482b56
+  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
+
+PODFILE CHECKSUM: cb50c045c2df9367f9149af880a3fddd4d34286f
+
+COCOAPODS: 1.6.0.beta.1
