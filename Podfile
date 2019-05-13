@@ -13,6 +13,7 @@ target 'GuestLogix' do
   pod 'NVActivityIndicatorView'
   pod 'DynamicButton', '~> 6.1.0'
 pod 'PMSuperButton'
+pod 'Material'
   # Pods for GuestLogix
 
   target 'GuestLogixTests' do

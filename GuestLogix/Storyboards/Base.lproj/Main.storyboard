@@ -110,33 +110,40 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="hV0-hC-AZq"/>
                                 </connections>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4i-oE-8Jd" customClass="PMSuperButton" customModule="PMSuperButton">
-                                <rect key="frame" x="38" y="617" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Feb-eA-Ilw" customClass="TransitionButton" customModule="TransitionButton">
+                                <rect key="frame" x="13" y="566" width="65" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="S24-un-fc5"/>
+                                    <constraint firstAttribute="height" constant="45" id="xfp-JO-cux"/>
+                                </constraints>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </state>
                                 <connections>
-                                    <segue destination="XNP-RZ-C6s" kind="show" id="LlS-Nr-g8U"/>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchDown" id="2EG-0P-1to"/>
+                                    <segue destination="XNP-RZ-C6s" kind="show" id="COV-dg-gA7"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jBp-uX-YTQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="JQl-vg-eD7"/>
+                            <constraint firstItem="jBp-uX-YTQ" firstAttribute="leading" secondItem="Feb-eA-Ilw" secondAttribute="trailing" constant="-78" id="P4d-pm-YVh"/>
+                            <constraint firstItem="Feb-eA-Ilw" firstAttribute="top" secondItem="jBp-uX-YTQ" secondAttribute="bottom" constant="-101" id="P4w-KQ-yvV"/>
                             <constraint firstItem="jBp-uX-YTQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="SNe-kN-9F0"/>
-                            <constraint firstItem="jBp-uX-YTQ" firstAttribute="leading" secondItem="U4i-oE-8Jd" secondAttribute="trailing" constant="-72" id="aI0-bI-1r2"/>
-                            <constraint firstItem="U4i-oE-8Jd" firstAttribute="top" secondItem="jBp-uX-YTQ" secondAttribute="bottom" constant="-50" id="pP6-DY-hMd"/>
                             <constraint firstItem="jBp-uX-YTQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vvw-mB-Dtk"/>
                             <constraint firstItem="jBp-uX-YTQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zcT-rR-mZK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="backButton" destination="U4i-oE-8Jd" id="h1W-J8-TdR"/>
+                        <outlet property="iconButton" destination="Feb-eA-Ilw" id="ipn-F0-2Y0"/>
                         <outlet property="mapView" destination="jBp-uX-YTQ" id="XOj-V3-AcZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="204" y="124"/>
+            <point key="canvasLocation" x="204" y="123.68815592203899"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jh4-r8-WQq">
@@ -186,7 +193,6 @@
         <image name="splashscreen" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ThH-24-F3x"/>
-        <segue reference="LlS-Nr-g8U"/>
+        <segue reference="COV-dg-gA7"/>
     </inferredMetricsTieBreakers>
 </document>

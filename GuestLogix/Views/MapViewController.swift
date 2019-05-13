@@ -12,15 +12,16 @@ import UIKit
 import SwiftGraph
 import SwiftMessages
 import CoreData
-import DynamicButton
+import Material
 import PMSuperButton
+import TransitionButton
 let locationManager = CLLocationManager()
 
 class MapViewController: UIViewController,MKMapViewDelegate {
     
     @IBOutlet weak var backButton: PMSuperButton!
     @IBOutlet weak var mapView: MKMapView!
-    
+     @IBOutlet weak var iconButton: TransitionButton!
     var mapProtocol: MapProtocol = MapViewModel()
     var flightpathPolyline: MKGeodesicPolyline!
     var planeAnnotation: MKPointAnnotation!
@@ -116,6 +117,8 @@ class MapViewController: UIViewController,MKMapViewDelegate {
         // all paths have lenght 2. By now, we are happy only asserting that at least one of the paths
         // is lenght 2. This indicates that we are not prematurely marking as visited the neighbours
         // of the current vertex.
+        
+        prepareButton()
        
         if source == nil || destination == nil {
        
@@ -230,4 +233,35 @@ extension Double {
     func degrees() -> CGFloat {
         return CGFloat(self) * CGFloat(.pi / 180.0)
     }
+}
+extension MapViewController {
+
+    func prepareButton() {
+        iconButton.backgroundColor = UIColor(red:0.54, green:0.71, blue:0.81, alpha:1.0)
+        iconButton.setTitle("Back", for: .normal)
+        iconButton.cornerRadius = 20
+        iconButton.spinnerColor = .white
+        iconButton.addTarget(self, action: #selector(buttonAction(_:)), for: .touchUpInside)
+    }
+    @IBAction func buttonAction(_ button: TransitionButton) {
+        button.startAnimation() // 2: Then start the animation when the user tap the button
+        let qualityOfServiceClass = DispatchQoS.QoSClass.background
+        let backgroundQueue = DispatchQueue.global(qos: qualityOfServiceClass)
+        backgroundQueue.async(execute: {
+            
+            sleep(3) // 3: Do your networking task or background work here.
+            
+            DispatchQueue.main.async(execute: { () -> Void in
+                // 4: Stop the animation, here you have three options for the `animationStyle` property:
+                // .expand: useful when the task has been compeletd successfully and you want to expand the button and transit to another view controller in the completion callback
+                // .shake: when you want to reflect to the user that the task did not complete successfly
+                // .normal
+                button.stopAnimation(animationStyle: .expand, completion: {
+                    let secondVC = UIViewController()
+                    self.present(secondVC, animated: true, completion: nil)
+                })
+            })
+        })
+    }
+   
 }

@@ -100,8 +100,8 @@ class InitialViewController: UIViewController{
             let vc = segue.destination as? MapViewController
             let okay =  initialProtocol.determineEligibleAirports(sourceText: sourceLocation.text ?? "", destinationText: destinationLocation.text ?? "")
             if okay.0 {
-                vc?.destination = destination.first
-                vc?.source = sorurce.first
+                vc?.destination = okay.2.first
+                vc?.source = okay.1.first
             }else{
                 NotificationController().fireErrorNotification(message: "No Source or Destination Exists" )
                 vc?.destination = nil

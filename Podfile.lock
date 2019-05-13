@@ -1,6 +1,13 @@
 PODS:
   - CSV.swift (2.3.1)
   - DynamicButton (6.1.0)
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
   - NVActivityIndicatorView (4.6.1):
     - NVActivityIndicatorView/Presenter (= 4.6.1)
   - NVActivityIndicatorView/Presenter (4.6.1)
@@ -16,6 +23,7 @@ PODS:
 DEPENDENCIES:
   - CSV.swift (~> 2.3.1)
   - DynamicButton (~> 6.1.0)
+  - Material
   - NVActivityIndicatorView
   - PMSuperButton
   - SearchTextField
@@ -28,6 +36,8 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CSV.swift
     - DynamicButton
+    - Material
+    - Motion
     - NVActivityIndicatorView
     - PMSuperButton
     - SearchTextField
@@ -39,6 +49,8 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   CSV.swift: d16f671b3090a2c0525d5f2165b18319074aae2b
   DynamicButton: 5a3ae2bf26dc196fb6c85b3e1aac956add860718
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
   NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
   PMSuperButton: 5e7b2eb79468dba1ced3fd00e47a7ce88a1fa664
   SearchTextField: a0992739d4b05dcbb40fb3a5cc6526bd991bdd23
@@ -47,6 +59,6 @@ SPEC CHECKSUMS:
   SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
   TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
 
-PODFILE CHECKSUM: cb50c045c2df9367f9149af880a3fddd4d34286f
+PODFILE CHECKSUM: 834c49e47f45e5f1fb4a6e30f62f640a568355fe
 
 COCOAPODS: 1.6.0.beta.1
